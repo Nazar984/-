@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    justify-content: space-between;
+    padding: 0 20px; 
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;*/
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 24px;
+    color: white;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 0 15px 30px 0; 
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey; 
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: #36bbce; 
+}
+
+footer a {
+    margin-right: 10px; 
+}
+
+footer p {
+    font-size: 24px;
+}
+
+header, nav, .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
